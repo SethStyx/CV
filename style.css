@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: white
+   
+}
+
+main{
+    display: flex;
+    width: 100;
+    flex-direction: column;
+
+}
+
+main h4{
+    margin-top: 1%;
+    text-align: center;
+    
+}
+
+
+
+.generale {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 90%;
+}
+
+.elementMenu {
+    margin: 0 2.5%;
+}
+
+.elementMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav img {
+    width: 10%;
+    margin: 10px;
+}
+
+header { background-color: #000000;
+   height: 15px;
+}
+
+#front { background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+   
+}
+
+
+#image {
+    display: flex;
+    align-self: center;
+   background-color: #1a1a1a;
+   flex-direction: column;
+   margin-bottom: 20px;
+
+   
+}
+
+img{
+
+    max-width: 50%;
+    align-self: center;
+}
+
+
+
+
+
+#back { background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    
+   
+}
+
+#competencesBack{ 
+    display:block;
+    float:right;  
+    align-content: flex-start;
+    width:200px;
+    height: 250px;
+    background-color:#000000;
+    color:rgb(255, 255, 255);
+    border:2px solid;
+    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+    
+
+}
+
+#divers { background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#projets { background-color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contacts {background-color: #555555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer { background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+header{
+    display: flex;
+}
+.elementMenu {
+    padding: 50px;
+    margin: 0px;
+    list-style-type:none;
+    }
+.elementMenu {
+    margin-left:2px;
+    float:left; /*pour IE*/
+    display: flex;
+    }
+.elementMenu {
+    display:block;
+    float:right;   
+    width:100px;
+    background-color:#000000;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    /*pour avoir un effet "outset" avec IE :*/
+    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+    }
+.elementMenu:hover {
+    background-color:#797979;
+    border-color:#696969 #DCDCDC #DCDCDC #696969;
+    } 
+    .Navigation {
+        justify-content: right;
+    }
+    /* trouvé sur google */
+
+h4{
+    display:block;
+    float:right;   
+    width:100px;
+    background-color:#0c0c0c;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    /*pour avoir un effet "outset" avec IE :*/
+    border-color:#000000 #696969 #696969 #000000;
+    align-self: center;
+    
+}
