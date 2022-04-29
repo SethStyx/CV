@@ -1,9 +1,10 @@
-body {
+body { 
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     color: white
+    
    
 }
 
@@ -47,7 +48,7 @@ nav {
 }
 
 .elementMenu a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     font-size: larger;
 }
@@ -92,33 +93,52 @@ img{
 
 
 #back { background-color: #222222;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.5), rgba(143, 143, 143, 0.5)),
+                  url("https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg");
+                  background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
+    height: 300px;
     
    
 }
 
+
+
+
 #competencesBack{ 
     display:block;
-    float:right;  
-    align-content: flex-start;
-    width:200px;
+    float:right; 
+    align-content: center; 
+    width: 25%;
     height: 250px;
-    background-color:#000000;
+    background-color:#1a1a1a;
     color:rgb(255, 255, 255);
-    border:2px solid;
-    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+    border:5px solid;
+    border-color:#000000 #2e2e2e #2e2e2e #000000;
+    margin-bottom: 20px;
+   
+    
     
 
 }
+
+
 
 #divers { background-color: #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+#image2 {
+    display: flex;
+    align-self: center;
+   flex-direction: column;
+   max-width: 100%;
+   margin-bottom: 25px;
 }
 
 #projets { background-color: #444444;
